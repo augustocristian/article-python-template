@@ -1,0 +1,319 @@
+ID;FAILURE_TYPE;SEVERITY
+P022;Buffer Overflow;Medium
+P041;Buffer Overflow;Medium
+P035;Buffer Overflow;Medium
+P046;Buffer Overflow;Low
+P047;Buffer Overflow;Low
+P040;Buffer Overflow;Low
+P043;Buffer Overflow;High
+P008;Use-After-Free;Medium
+P024;Use-After-Free;High
+P016;Use-After-Free;High
+P004;Use-After-Free;High
+P029;Use-After-Free;High
+P019;Use-After-Free;Low
+P011;Use-After-Free;Medium
+P041;Use-After-Free;Low
+P040;Use-After-Free;Medium
+P003;Use-After-Free;Low
+P034;Use-After-Free;Medium
+P022;Use-After-Free;Medium
+P045;Use-After-Free;High
+P038;Use-After-Free;Low
+P044;Use-After-Free;High
+P002;Use-After-Free;Low
+P044;Unreleased Handle;High
+P023;Unreleased Handle;High
+P048;Unreleased Handle;Medium
+P040;Unreleased Handle;Medium
+P013;Unreleased Handle;Medium
+P011;Unreleased Handle;High
+P043;Unreleased Handle;Medium
+P039;Unreleased Handle;Medium
+P008;Unreleased Handle;Medium
+P036;Unreleased Handle;Medium
+P032;Unreleased Handle;High
+P034;Unreleased Handle;High
+P007;Unreleased Handle;Medium
+P025;Unreleased Handle;High
+P018;Unreleased Handle;High
+P020;Growing Heap;Medium
+P019;Growing Heap;High
+P044;Growing Heap;Low
+P025;Growing Heap;Low
+P028;Growing Heap;High
+P045;Growing Heap;High
+P030;Growing Heap;Low
+P005;Growing Heap;Low
+P005;Race Condition;Medium
+P023;Race Condition;High
+P045;Race Condition;Medium
+P026;Race Condition;High
+P031;Race Condition;Medium
+P008;Race Condition;Low
+P022;Deadlock;High
+P041;Deadlock;Low
+P032;Deadlock;High
+P007;Deadlock;Medium
+P028;Deadlock;High
+P006;Deadlock;High
+P019;Deadlock;Medium
+P021;Deadlock;Low
+P011;Deadlock;Low
+P029;Deadlock;Low
+P025;Deadlock;Medium
+P047;Incompatible API Change;Medium
+P025;Incompatible API Change;Medium
+P043;Incompatible API Change;Medium
+P026;Incompatible API Change;Low
+P030;Incompatible API Change;Low
+P015;Incompatible API Change;Low
+P026;Transitive Dependency Break;Low
+P002;Transitive Dependency Break;Medium
+P014;Transitive Dependency Break;Low
+P034;Transitive Dependency Break;Medium
+P031;Transitive Dependency Break;Medium
+P027;Transitive Dependency Break;High
+P006;Transitive Dependency Break;Low
+P044;Transitive Dependency Break;Medium
+P020;Transitive Dependency Break;Medium
+P015;Unresolved Import;High
+P020;Unresolved Import;High
+P027;Unresolved Import;Low
+P030;Unresolved Import;Medium
+P025;Unresolved Import;High
+P004;Unresolved Import;Low
+P037;Unresolved Import;Medium
+P036;Unresolved Import;Medium
+P014;Unresolved Import;High
+P028;Unresolved Import;High
+P002;Null Pointer Dereference;High
+P023;Null Pointer Dereference;High
+P009;Null Pointer Dereference;High
+P014;Null Pointer Dereference;High
+P024;Null Pointer Dereference;Low
+P034;Null Pointer Dereference;Medium
+P003;Null Pointer Dereference;High
+P040;Null Pointer Dereference;Low
+P008;Null Pointer Dereference;Medium
+P021;Null Pointer Dereference;Low
+P019;Segmentation Fault;High
+P002;Segmentation Fault;Medium
+P017;Segmentation Fault;Medium
+P048;Segmentation Fault;Medium
+P046;Segmentation Fault;Low
+P040;Segmentation Fault;High
+P042;Segmentation Fault;Low
+P029;Segmentation Fault;Medium
+P036;Segmentation Fault;High
+P005;Segmentation Fault;Low
+P022;Segmentation Fault;High
+P047;Segmentation Fault;High
+P026;Segmentation Fault;Medium
+P031;Segmentation Fault;Medium
+P020;Segmentation Fault;High
+P013;Livelock;High
+P012;Livelock;Medium
+P025;Livelock;High
+P008;Livelock;High
+P041;Livelock;Low
+P021;Livelock;High
+P043;Livelock;High
+P005;Livelock;High
+P048;Livelock;Medium
+P019;Livelock;High
+P011;Livelock;Low
+P007;Livelock;High
+P038;Livelock;Low
+P042;Livelock;Medium
+P017;Priority Inversion;Medium
+P019;Priority Inversion;Medium
+P042;Priority Inversion;High
+P022;Priority Inversion;Low
+P038;Priority Inversion;Medium
+P031;Priority Inversion;Medium
+P027;Priority Inversion;Medium
+P039;File Descriptor Exhaustion;Medium
+P033;File Descriptor Exhaustion;Medium
+P020;File Descriptor Exhaustion;Low
+P029;File Descriptor Exhaustion;Medium
+P021;File Descriptor Exhaustion;Medium
+P003;File Descriptor Exhaustion;Medium
+P043;File Descriptor Exhaustion;Medium
+P023;File Descriptor Exhaustion;High
+P017;File Descriptor Exhaustion;High
+P013;Connection Pool Starvation;Low
+P009;Connection Pool Starvation;Medium
+P025;Connection Pool Starvation;Medium
+P040;Connection Pool Starvation;Medium
+P030;Connection Pool Starvation;Medium
+P022;Connection Pool Starvation;High
+P034;Connection Pool Starvation;Medium
+P005;Connection Pool Starvation;Medium
+P048;Stack Overflow;Medium
+P012;Stack Overflow;High
+P041;Stack Overflow;Low
+P037;Stack Overflow;High
+P014;Stack Overflow;High
+P016;Stack Overflow;High
+P026;Stack Overflow;Low
+P002;Stack Overflow;High
+P017;Stack Overflow;Medium
+P004;Out-of-Memory Crash;Medium
+P010;Out-of-Memory Crash;Low
+P003;Out-of-Memory Crash;Low
+P041;Out-of-Memory Crash;Low
+P046;Out-of-Memory Crash;Medium
+P025;Out-of-Memory Crash;High
+P014;Out-of-Memory Crash;Medium
+P017;Out-of-Memory Crash;Low
+P043;Out-of-Memory Crash;High
+P026;Out-of-Memory Crash;High
+P006;Out-of-Memory Crash;High
+P047;Out-of-Memory Crash;Medium
+P016;Out-of-Memory Crash;High
+P036;Out-of-Memory Crash;High
+P007;Unvalidated Input Injection;Low
+P017;Unvalidated Input Injection;Low
+P018;Unvalidated Input Injection;Medium
+P022;Unvalidated Input Injection;High
+P015;Unvalidated Input Injection;Medium
+P004;Unvalidated Input Injection;Medium
+P032;Unvalidated Input Injection;High
+P046;Unvalidated Input Injection;Medium
+P034;Unvalidated Input Injection;Medium
+P040;Unvalidated Input Injection;Medium
+P020;Unvalidated Input Injection;Low
+P002;Unvalidated Input Injection;Low
+P036;Unvalidated Input Injection;Low
+P031;Unvalidated Input Injection;High
+P013;Integer Overflow;Medium
+P041;Integer Overflow;Medium
+P006;Integer Overflow;Medium
+P037;Integer Overflow;Low
+P033;Integer Overflow;High
+P001;Integer Overflow;High
+P027;Integer Overflow;High
+P044;Integer Overflow;High
+P047;Integer Overflow;Medium
+P022;Integer Overflow;Low
+P005;Integer Overflow;High
+P038;Integer Overflow;High
+P012;Integer Overflow;Low
+P035;Missing Build Output;Low
+P009;Missing Build Output;Medium
+P013;Missing Build Output;High
+P008;Missing Build Output;Medium
+P044;Missing Build Output;Low
+P020;Missing Build Output;Medium
+P026;Missing Build Output;High
+P048;Missing Build Output;Low
+P021;Missing Build Output;Low
+P038;Missing Build Output;Medium
+P032;Missing Build Output;High
+P041;Missing Build Output;Low
+P001;Missing Build Output;Medium
+P023;Missing Build Output;High
+P027;Missing Build Output;Low
+P003;Misconfigured Build Script;Medium
+P046;Misconfigured Build Script;Medium
+P034;Misconfigured Build Script;High
+P011;Misconfigured Build Script;Medium
+P008;Misconfigured Build Script;Low
+P017;Misconfigured Build Script;Medium
+P040;Misconfigured Build Script;High
+P038;Misconfigured Build Script;Medium
+P039;Misconfigured Build Script;Medium
+P029;Misconfigured Build Script;Medium
+P031;Misconfigured Build Script;Medium
+P048;Misconfigured Build Script;Medium
+P041;Misconfigured Build Script;Medium
+P025;Misconfigured Build Script;Low
+P037;Misconfigured Build Script;Low
+P013;Invalid Compiler Flag;Medium
+P037;Invalid Compiler Flag;High
+P045;Invalid Compiler Flag;Low
+P038;Invalid Compiler Flag;High
+P030;Invalid Compiler Flag;Low
+P024;Invalid Compiler Flag;Medium
+P034;Invalid Compiler Flag;High
+P029;Invalid Compiler Flag;High
+P027;Invalid Compiler Flag;High
+P044;Invalid Compiler Flag;High
+P038;Missing Environment Variable;High
+P041;Missing Environment Variable;High
+P010;Missing Environment Variable;Medium
+P016;Missing Environment Variable;Medium
+P008;Missing Environment Variable;Low
+P031;Missing Environment Variable;Medium
+P003;Missing Environment Variable;Low
+P048;Missing Environment Variable;High
+P011;Missing Environment Variable;High
+P012;Missing Environment Variable;Low
+P026;Missing Environment Variable;Low
+P044;Missing Environment Variable;Medium
+P036;Missing Environment Variable;High
+P018;Missing Environment Variable;High
+P045;Toolchain Version Mismatch;Low
+P044;Toolchain Version Mismatch;Medium
+P003;Toolchain Version Mismatch;Medium
+P028;Toolchain Version Mismatch;Medium
+P047;Toolchain Version Mismatch;Medium
+P039;Toolchain Version Mismatch;High
+P033;Toolchain Version Mismatch;Medium
+P043;Toolchain Version Mismatch;Medium
+P013;Toolchain Version Mismatch;Medium
+P011;Toolchain Version Mismatch;Low
+P041;Toolchain Version Mismatch;Medium
+P037;Toolchain Version Mismatch;High
+P023;Toolchain Version Mismatch;High
+P025;Toolchain Version Mismatch;Medium
+P008;Missing Library Symbol;High
+P011;Missing Library Symbol;Low
+P006;Missing Library Symbol;Medium
+P041;Missing Library Symbol;Low
+P040;Missing Library Symbol;Low
+P020;Missing Library Symbol;Low
+P010;Missing Library Symbol;Low
+P015;Missing Library Symbol;High
+P003;Missing Library Symbol;High
+P036;Duplicate Symbol Definition;Low
+P042;Duplicate Symbol Definition;Low
+P007;Duplicate Symbol Definition;Medium
+P005;Duplicate Symbol Definition;Low
+P040;Duplicate Symbol Definition;Medium
+P016;Duplicate Symbol Definition;Medium
+P029;Duplicate Symbol Definition;High
+P001;Duplicate Symbol Definition;Medium
+P009;Duplicate Symbol Definition;Medium
+P025;Duplicate Symbol Definition;Medium
+P012;Duplicate Symbol Definition;Medium
+P034;Duplicate Symbol Definition;High
+P035;Duplicate Symbol Definition;Medium
+P003;Duplicate Symbol Definition;Medium
+P026;Duplicate Symbol Definition;High
+P047;Duplicate Symbol Definition;High
+P006;Incomplete Archive Generation;Low
+P024;Incomplete Archive Generation;Medium
+P021;Incomplete Archive Generation;Medium
+P007;Incomplete Archive Generation;High
+P030;Incomplete Archive Generation;Low
+P048;Incomplete Archive Generation;Medium
+P008;Incomplete Archive Generation;Medium
+P029;Incomplete Archive Generation;Medium
+P001;Incomplete Archive Generation;Low
+P019;Incomplete Archive Generation;Medium
+P018;Incomplete Archive Generation;Medium
+P036;Incomplete Archive Generation;High
+P025;Incomplete Archive Generation;Low
+P002;Corrupted Package Metadata;High
+P029;Corrupted Package Metadata;Low
+P012;Corrupted Package Metadata;Medium
+P023;Corrupted Package Metadata;High
+P021;Corrupted Package Metadata;Medium
+P036;Corrupted Package Metadata;Low
+P010;Corrupted Package Metadata;High
+P030;Corrupted Package Metadata;Low
+P022;Corrupted Package Metadata;Medium
+P009;Corrupted Package Metadata;High
+P037;Corrupted Package Metadata;High
