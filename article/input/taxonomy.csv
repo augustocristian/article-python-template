@@ -1,0 +1,29 @@
+FOCUS;CATEGORY;SUBCATEGORY;FAILURE_TYPE
+Runtime Failures;Memory Safety;Memory Corruption;Buffer Overflow
+Runtime Failures;Memory Safety;Memory Corruption;Use-After-Free
+Runtime Failures;Memory Safety;Memory Leak;Unreleased Handle
+Runtime Failures;Memory Safety;Memory Leak;Growing Heap
+Runtime Failures;Concurrency;Synchronization;Race Condition
+Runtime Failures;Concurrency;Synchronization;Deadlock
+Build Failures;Dependency Management;Version Conflicts;Incompatible API Change
+Build Failures;Dependency Management;Version Conflicts;Transitive Dependency Break
+Build Failures;Dependency Management;Missing Artifacts;Unresolved Import
+Runtime Failures;Memory Safety;Invalid Memory Access;Null Pointer Dereference
+Runtime Failures;Memory Safety;Invalid Memory Access;Segmentation Fault
+Runtime Failures;Concurrency;Ordering Violations;Livelock
+Runtime Failures;Concurrency;Ordering Violations;Priority Inversion
+Runtime Failures;Resource Exhaustion;Handle and Connection Limits;File Descriptor Exhaustion
+Runtime Failures;Resource Exhaustion;Handle and Connection Limits;Connection Pool Starvation
+Runtime Failures;Resource Exhaustion;Stack and Heap Limits;Stack Overflow
+Runtime Failures;Resource Exhaustion;Stack and Heap Limits;Out-of-Memory Crash
+Runtime Failures;Input Handling;Validation Failures;Unvalidated Input Injection
+Runtime Failures;Input Handling;Validation Failures;Integer Overflow
+Build Failures;Dependency Management;Missing Artifacts;Missing Build Output
+Build Failures;Build Configuration;Script Errors;Misconfigured Build Script
+Build Failures;Build Configuration;Script Errors;Invalid Compiler Flag
+Build Failures;Build Configuration;Environment Drift;Missing Environment Variable
+Build Failures;Build Configuration;Environment Drift;Toolchain Version Mismatch
+Build Failures;Compilation Failures;Linker Errors;Missing Library Symbol
+Build Failures;Compilation Failures;Linker Errors;Duplicate Symbol Definition
+Build Failures;Packaging Failures;Artifact Assembly;Incomplete Archive Generation
+Build Failures;Packaging Failures;Artifact Assembly;Corrupted Package Metadata

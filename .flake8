@@ -1,2 +1,11 @@
 [flake8]
-extend-exclude = .venv
+extend-exclude = .venv,article/outputs
+
+# E402/E702 are deliberate in the Fig*.py scripts, per the "Header-Configurable
+# Figures" Iron Rule in CLAUDE.md:
+#   E702 — `from palette import apply_style; apply_style()` is written as one
+#          line so the style is applied before any Figure is created.
+#   E402 — each figure's `from palette import (...)` colour block lives inside
+#          the `# ── Colors ──` header section, next to the constants derived
+#          from it, rather than at the top of the file.
+extend-ignore = E402,E702
