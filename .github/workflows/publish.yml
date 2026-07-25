@@ -1,0 +1,57 @@
+name: publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: "Build distribution"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install Poetry
+        uses: snok/install-poetry@a783c322200f0519c7926aa6faa857c4e23e9263 # v1
+        with:
+          version: "2.4.0"
+      - name: Check tag matches project version
+        run: |
+          TAG_VERSION="${GITHUB_REF_NAME#v}"
+          PROJECT_VERSION="$(poetry version --short)"
+          python3 -c "
+          import sys
+          norm = lambda v: '.'.join(str(int(p)) if p.isdigit() else p for p in v.split('.'))
+          tag, project = '$TAG_VERSION', '$PROJECT_VERSION'
+          if norm(tag) != norm(project):
+              print(f'Release tag ({tag}) does not match pyproject.toml version ({project})')
+              sys.exit(1)
+          "
+      - name: Build package
+        run: poetry build
+      - name: Store distribution artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    name: "Publish to PyPI"
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: pypi
+      url: https://pypi.org/project/samples-python-template/
+    permissions:
+      id-token: write # required for PyPI trusted publishing (OIDC)
+    steps:
+      - name: Download distribution artifacts
+        uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@ba38be9e461d3875417946c167d0b5f3d385a247 # release/v1

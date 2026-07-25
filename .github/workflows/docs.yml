@@ -1,0 +1,48 @@
+name: docs
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    name: "Build Sphinx docs"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install Poetry
+        uses: snok/install-poetry@a783c322200f0519c7926aa6faa857c4e23e9263 # v1
+        with:
+          version: "2.4.0"
+      - name: Install dependencies
+        run: poetry install --no-interaction --with docs
+        env:
+          POETRY_INSTALLER_ONLY_BINARY: ":all:" # only install pre-built wheels, never run a source dist's build/setup scripts
+      - name: Build documentation
+        run: poetry run sphinx-build -b html docs docs/_build/html -W --keep-going
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs/_build/html
+
+  deploy:
+    name: "Deploy to GitHub Pages"
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
