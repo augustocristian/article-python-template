@@ -1,0 +1,54 @@
+ID;FAILURE_TYPE;SEVERITY
+P021;Buffer Overflow;High
+P016;Buffer Overflow;Low
+P014;Buffer Overflow;Medium
+P007;Buffer Overflow;Low
+P019;Buffer Overflow;Medium
+P013;Buffer Overflow;Medium
+P002;Buffer Overflow;High
+P018;Buffer Overflow;Medium
+P008;Buffer Overflow;High
+P016;Use-After-Free;Low
+P005;Use-After-Free;Medium
+P014;Use-After-Free;High
+P015;Use-After-Free;Low
+P002;Use-After-Free;Low
+P017;Use-After-Free;High
+P008;Use-After-Free;High
+P013;Use-After-Free;High
+P013;Unreleased Handle;Low
+P009;Unreleased Handle;High
+P001;Unreleased Handle;Low
+P008;Growing Heap;High
+P021;Growing Heap;Medium
+P007;Growing Heap;Low
+P014;Growing Heap;Medium
+P010;Growing Heap;Medium
+P012;Race Condition;Medium
+P002;Race Condition;Medium
+P020;Race Condition;Medium
+P007;Race Condition;Low
+P013;Race Condition;Medium
+P018;Race Condition;Medium
+P004;Deadlock;High
+P007;Deadlock;Low
+P019;Deadlock;High
+P011;Deadlock;Low
+P001;Deadlock;High
+P003;Deadlock;Medium
+P013;Deadlock;High
+P010;Deadlock;Medium
+P018;Incompatible API Change;Medium
+P006;Incompatible API Change;High
+P022;Incompatible API Change;Low
+P015;Incompatible API Change;High
+P005;Incompatible API Change;Medium
+P001;Transitive Dependency Break;High
+P016;Transitive Dependency Break;Medium
+P004;Transitive Dependency Break;High
+P007;Transitive Dependency Break;High
+P019;Transitive Dependency Break;High
+P016;Unresolved Import;Low
+P013;Unresolved Import;Medium
+P001;Unresolved Import;High
+P012;Unresolved Import;Low

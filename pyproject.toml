@@ -5,17 +5,15 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 packages = [{ include = "article" }]
 
-[tool.poetry.group.docs.dependencies]
-sphinx = "^9.1.0"
-furo = "^2025.12.19"
-
 [project]
 name = "article-python-template"
 version = "2026.07.1"
 dependencies = [
-    "setuptools==82.0.1",
     "pandas==3.0.3",
+    "numpy==2.3.4",
     "matplotlib==3.10.9",
+    "plotly==6.7.0",
+    "kaleido==1.3.0",
     "python-dotenv==1.2.2",
     "flake8==7.3.0",
 ]
@@ -35,7 +33,6 @@ license = { file = "LICENSE" }
 
 [project.urls]
 Homepage = "https://github.com/augustocristian/article-python-template"
-Documentation = "https://augustocristian.github.io/article-python-template/"
 Repository = "https://github.com/augustocristian/article-python-template"
 "Bug Tracker" = "https://github.com/augustocristian/article-python-template/issues"
 Changelog = "https://github.com/augustocristian/article-python-template/blob/main/CHANGELOG.md"

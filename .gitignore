@@ -186,10 +186,6 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-docs/_autosummary/
-
 # PyBuilder
 .pybuilder/
 target/
@@ -308,3 +304,7 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,python,visualstudiocode
+
+### article-python-template ###
+# Dynamically generated local debug outputs (figures/PDF+PNG, sheets, bib, citations)
+/article/outputs/

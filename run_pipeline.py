@@ -31,7 +31,12 @@ PHASES: dict[str, list[str]] = {
         "generate_tables.py",
     ],
     "figures": [
-        "generate_figures.py",
+        "Fig1_sankey.py",
+        "Fig2_stackedbar.py",
+        "Fig3_bubble.py",
+        "Fig4_distribution.py",
+        "Fig5_treechart.py",
+        "Fig6_severitycrosstab.py",
     ],
 }
 
