@@ -28,7 +28,7 @@ packages = [{ include = "article" }]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
-pandas = "==3.0.3"
+pandas = "==3.0.5"
 numpy = "==2.3.4"
 matplotlib = "==3.10.9"
 plotly = "==6.7.0"
