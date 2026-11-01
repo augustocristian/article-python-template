@@ -2,6 +2,9 @@ version: 2
 updates:
   - package-ecosystem: pip
     directory: "/"
+    # pyproject.toml uses ranges; only poetry.lock changes, so its content-hash
+    # stays constant and parallel PRs no longer conflict on it.
+    versioning-strategy: lockfile-only
     schedule:
       interval: monthly
     open-pull-requests-limit: 20
